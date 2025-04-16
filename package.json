@@ -1,0 +1,29 @@
+{
+  "name": "pomodoro-cli",
+  "version": "1.0.0",
+  "description": "A CLI-based Pomodoro timer with history, stats, and trends.",
+  "bin": {
+    "pomodoro": "./bin/index.js"
+  },
+  "keywords": [
+    "pomodoro",
+    "cli",
+    "productivity",
+    "nodejs"
+  ],
+  "author": "Jason Zhao",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "asciichart": "^1.5.25",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "date-fns": "^4.1.0",
+    "node-notifier": "^10.0.1",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.9"
+  }
+}
